@@ -1,0 +1,30 @@
+Express & Next.js Project
+This project combines an Express.js backend and a Next.js frontend to create a full-stack web application. The Express server handles API requests, specifically CRUD operations for user management, while Next.js provides the frontend interface.
+## Installation
+
+Running Express Server
+To run the Express server:
+
+Navigate to the "server" folder.
+Install dependencies using either Yarn or npm.
+Copy environment variables from .env.example to create a .env file.
+Ensure PostgreSQL is running and properly configured.
+Start the server using Yarn or npm.
+The server utilizes Prisma to connect with PostgreSQL. The CRUD API for users can be accessed at localhost:3000/v1/users.
+
+
+Running Next.js Client
+To run the Next.js client:
+
+Navigate to the "client" folder.
+Install dependencies using npm or Yarn.
+Copy environment variables from .env.example to create a .env file.
+Start the Next.js development server using npm or Yarn.
+The CRUD interface is available at localhost:3001.
+
+
+
+## Authors
+
+- [@dshant](https://github.com/dshant)
+
